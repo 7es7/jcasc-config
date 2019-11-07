@@ -1,0 +1,12 @@
+credentials:
+  system:
+    domainCredentials:
+      - domain :
+          name: "github.com"
+          description: "GitHub"
+        credentials:
+          - usernamePassword:
+              scope: SYSTEM
+              id: github-creds
+              username: ${username}
+              password: ${password}
